@@ -2,7 +2,6 @@
 !URXVT Terminal config
 !-------------------------------------------------
 URxvt.depth:                            32
-##URxvt*termName:                         screen-256color
 URxvt*geometry:                         180x49
 URxvt.loginShell:                       true
 URxvt*scrollColor:                      #777777
