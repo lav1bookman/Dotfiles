@@ -1,0 +1,71 @@
+!-------------------------------------------------
+!URXVT Terminal config
+!-------------------------------------------------
+URxvt.depth:                            32
+URxvt*geometry:                         180x49
+URxvt.loginShell:                       true
+URxvt*scrollColor:                      #777777
+URxvt.scrollStyle:                      rxvt
+URxvt*scrollTtyKeypress:        		true
+URxvt*scrollTtyOutput:          		false
+URxvt*scrollWithBuffer:         		true
+URxvt*skipScroll:                       true
+URxvt*scrollBar:                        false
+URxvt*fading:                           30
+URxvt*visualBell:                       true
+URxvt*mapAlert:                         true
+URxvt*mouseWheelScrollPage:     		true
+URxvt.foreground:                       #eeeeee
+URxvt.background:                     	[90]#000000
+URxvt*colorUL:                          yellow
+URxvt*underlineColor:           		yellow
+URxvt.saveLines:                        65535
+URxvt.cursorBlink:                      false
+URxvt.utf8:                             true
+URxvt.locale:                           true
+
+URxvt.letterSpace:              		-1
+
+!-------------------------------------------------
+!URXVT Config font
+!-------------------------------------------------
+URxvt.font:             				xft:DejaVuSansMono Nerd Font Mono:pixelsize=11:style=regular
+URxvt.boldFont:         				xft:DejaVuSansMono Nerd Font Mono:pixelsize=10:style=bold
+
+URxvt.keysym.C-Up:              		perl:font-size:increase
+URxvt.keysym.C-Down:            		perl:font-size:decrease
+URxvt.keysym.C-S-Up:            		perl:font-size:incglobal
+URxvt.keysym.C-S-Down:          		perl:font-size:decglobal
+
+URxvt.keysym.Home: \033[1~
+URxvt.keysym.End: \033[4~
+URxvt.keysym.KP_Home: \033[1~
+URxvt.keysym.KP_End:  \033[4~
+
+! Colors
+! solarized theme
+! foreground/background
+! black
+URxvt.color0  : #000000
+URxvt.color8  : #555555
+! red
+URxvt.color1  : #AA0000
+URxvt.color9  : #FF5555
+! green
+URxvt.color2  : #00AA00
+URxvt.color10 : #55FF55
+! yellow
+URxvt.color3  : #AB4400
+URxvt.color11 : #FFFF44
+! blue
+URxvt.color4  : #0000AA
+URxvt.color12 : #5555FF
+! magenta
+URxvt.color5  : #AA00AA
+URxvt.color13 : #FF55FF
+! cyan
+URxvt.color6  : #00AAAA
+URxvt.color14 : #55FFFF
+! white
+URxvt.color7  : #AAAAAA
+URxvt.color15 : #FFFFFF

@@ -1,50 +1,41 @@
-!-------------------------------------------------
-!URXVT Terminal config
-!-------------------------------------------------
-URxvt.depth:                            32
-URxvt*geometry:                         180x49
-URxvt.loginShell:                       true
-URxvt*scrollColor:                      #777777
-URxvt.scrollStyle:                      rxvt
-URxvt*scrollTtyKeypress:        		true
-URxvt*scrollTtyOutput:          		false
-URxvt*scrollWithBuffer:         		true
-URxvt*skipScroll:                       true
-URxvt*scrollBar:                        false
-URxvt*fading:                           30
-URxvt*urgentOnBell:                     false
-URxvt*visualBell:                       true
-URxvt*mapAlert:                         true
-URxvt*mouseWheelScrollPage:     		true
-URxvt.foreground:                       #eeeeee
-URxvt.background:                     	[90]#000000
-URxvt*colorUL:                          yellow
-URxvt*underlineColor:           		yellow
-URxvt.saveLines:                        65535
-URxvt.cursorBlink:                      false
-URxvt.utf8:                             true
-URxvt.locale:                           true
-
-URxvt.letterSpace:              		-1
-
-!-------------------------------------------------
-!URXVT Config font
-!-------------------------------------------------
-URxvt.font:             				xft:DejaVuSansMono Nerd Font Mono:pixelsize=11:style=regular
-URxvt.boldFont:         				xft:DejaVuSansMono Nerd Font Mono:pixelsize=10:style=bold
-
-URxvt.keysym.C-Up:              		perl:font-size:increase
-URxvt.keysym.C-Down:            		perl:font-size:decrease
-URxvt.keysym.C-S-Up:            		perl:font-size:incglobal
-URxvt.keysym.C-S-Down:          		perl:font-size:decglobal
-
-URxvt.keysym.Home: \033[1~
-URxvt.keysym.End: \033[4~
-URxvt.keysym.KP_Home: \033[1~
-URxvt.keysym.KP_End:  \033[4~
-
-! Colors
-! solarized theme
+!----------------------------------------
+!----------Config rxvt-unicode-----------
+!----------------------------------------
+*Rxvt*geometry:					180x49
+*Rxvt.crusorBlink:				false
+*Rxvt*mouseWheelScrollPage:		true	
+*Rxvt.saveline:					65535
+*Rxvt.loginShell:				true
+*Rxvt*fading:					30
+*Rxvt*colorUL:					yellow
+!----------------------------------------
+!			Transparence
+!----------------------------------------
+*Rxvt.depth:					32
+*Rxvt.background:				[90]#000000
+!----------------------------------------
+!			Scroll
+!----------------------------------------
+*Rxvt.scrollStyle:				rxvt
+*Rxvt*scrollWithBuffer:			true
+*Rxvt*scrollBar:				false
+*Rxvt*scrollColor:				#777777
+*Rxvt*skipScroll:				true
+URxvt*scrollTtyKeypress:		true
+URxvt*scrollTtyOutput:			false
+!----------------------------------------
+!			Config font
+!----------------------------------------
+URxvt.font:						xft:DejaVuSansMono Nerd Font Mono:pixelsize=11:style=regular
+URxvt.boldFont:					xft:DejaVuSansMono Nerd Font Mono:pixelsize=10:style=bold
+URxvt.letterSpace:				-1
+URxvt.locale:					true
+URxvt.utf8:						true
+*Rxvt.foreground:				#eeeeee
+*Rxvt*underlineColor:			#eeeeee
+!----------------------------------------
+!			Colors
+!----------------------------------------
 ! foreground/background
 ! black
 URxvt.color0  : #000000
