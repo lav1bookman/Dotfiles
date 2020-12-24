@@ -1,28 +1,38 @@
 !----------------------------------------
-!----------Config rxvt-unicode-----------
+!--------rxvt-unicode settings-----------
 !----------------------------------------
+*Rxvt.termName:					rxvt-256color
 *Rxvt*geometry:					180x49
-*Rxvt.crusorBlink:				false
-*Rxvt*mouseWheelScrollPage:		true	
+*Rxvt*mouseWheelScrollPage:		false	
 *Rxvt.saveline:					65535
 *Rxvt.loginShell:				true
 *Rxvt*fading:					30
 *Rxvt*colorUL:					yellow
+*Rxvt*secondaryScreen:			true
+*Rxvt.background:				#131313
 !----------------------------------------
 !			Transparence
 !----------------------------------------
 *Rxvt.depth:					32
-*Rxvt.background:				[90]#000000
+*Rxvt.transparent:				true
+*Rxvt.shading:					40
+!----------------------------------------
+!			Cursor
+!----------------------------------------
+*Rxvt.crusorBlink:				false
+*Rxvt.cursorColor:				#657b83
+*Rxvt.cursorUnderline:			false
 !----------------------------------------
 !			Scroll
 !----------------------------------------
 *Rxvt.scrollStyle:				rxvt
 *Rxvt*scrollWithBuffer:			true
 *Rxvt*scrollBar:				false
-*Rxvt*scrollColor:				#777777
+*Rxvt*scrollColor:				#b9b9b9
 *Rxvt*skipScroll:				true
 URxvt*scrollTtyKeypress:		true
 URxvt*scrollTtyOutput:			false
+URxvt*secondaryScroll:			true
 !----------------------------------------
 !			Config font
 !----------------------------------------
@@ -34,30 +44,37 @@ URxvt.utf8:						true
 *Rxvt.foreground:				#eeeeee
 *Rxvt*underlineColor:			#eeeeee
 !----------------------------------------
-!			Colors
+!			Colors 
 !----------------------------------------
 ! foreground/background
 ! black
-URxvt.color0  : #000000
-URxvt.color8  : #555555
+*.color0  : #000000
+*.color8  : #808080
 ! red
-URxvt.color1  : #AA0000
-URxvt.color9  : #FF5555
+*.color1  : #ff0000
+*.color9  : #ff0000
 ! green
-URxvt.color2  : #00AA00
-URxvt.color10 : #55FF55
+*.color2  : #33ff00
+*.color10 : #33ff00
 ! yellow
-URxvt.color3  : #AB4400
-URxvt.color11 : #FFFF44
+*.color3  : #ff0099
+*.color11 : #ff0099
 ! blue
-URxvt.color4  : #0000AA
-URxvt.color12 : #5555FF
+*.color4  : #0066ff
+*.color12 : #0066ff
 ! magenta
-URxvt.color5  : #AA00AA
-URxvt.color13 : #FF55FF
+*.color5  : #cc00ff
+*.color13 : #cc00ff
 ! cyan
-URxvt.color6  : #00AAAA
-URxvt.color14 : #55FFFF
+*.color6  : #00ffff
+*.color14 : #00ffff
 ! white
-URxvt.color7  : #AAAAAA
-URxvt.color15 : #FFFFFF
+*.color7  : #d0d0d0
+*.color15 : #ffffff
+
+!----------------------------------------
+!			Extended Colors
+!----------------------------------------
+*Rxvt.color61 : #6272a4
+*Rxvt.color215 : #ffb86c
+
