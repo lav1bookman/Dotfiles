@@ -11,6 +11,13 @@
 *Rxvt*secondaryScreen:			true
 *Rxvt.background:				#131313
 !----------------------------------------
+!----------Hinting settings--------------
+!----------------------------------------
+Xft.hinting: 1
+Xft.hintstyle: hintslight
+Xft.antialias: 1
+Xft.rgba: rgb
+!----------------------------------------
 !			Transparence
 !----------------------------------------
 *Rxvt.depth:					32
@@ -36,45 +43,49 @@ URxvt*secondaryScroll:			true
 !----------------------------------------
 !			Config font
 !----------------------------------------
-URxvt.font:						xft:DejaVuSansMono Nerd Font Mono:pixelsize=11:style=regular
-URxvt.boldFont:					xft:DejaVuSansMono Nerd Font Mono:pixelsize=10:style=bold
-URxvt.letterSpace:				-1
-URxvt.locale:					true
-URxvt.utf8:						true
+*Rxvt.font:						xft:DejaVuSansMono Nerd Font Mono:pixelsize=11:style=regular
+*Rxvt.boldFont:					xft:DejaVuSansMono Nerd Font Mono:pixelsize=10:style=bold
+*Rxvt.letterSpace:				-1
+*Rxvt.locale:					true
+*Rxvt.utf8:						true
 *Rxvt.foreground:				#eeeeee
 *Rxvt*underlineColor:			#eeeeee
+!! resize-font
+*Rxvt.keysym.C-k:				font-size:increase
+*Rxvt.keysym.C-j:				font-size:decrease
 !----------------------------------------
 !			Colors 
 !----------------------------------------
 ! foreground/background
+*.foreground: #F8F8F2
+*.background: #282A36
 ! black
 *.color0  : #000000
-*.color8  : #808080
+*.color8  : #4D4D4D
 ! red
 *.color1  : #ff0000
-*.color9  : #ff0000
+*.color9  : #FF5555
 ! green
 *.color2  : #33ff00
-*.color10 : #33ff00
+*.color10 : #50FA7B
 ! yellow
 *.color3  : #ff0099
-*.color11 : #ff0099
+*.color11 : #F1FA8C
 ! blue
 *.color4  : #0066ff
-*.color12 : #0066ff
+*.color12 : #BD93F9
 ! magenta
 *.color5  : #cc00ff
-*.color13 : #cc00ff
+*.color13 : #FF79C6
 ! cyan
 *.color6  : #00ffff
-*.color14 : #00ffff
+*.color14 : #8BE9FD
 ! white
 *.color7  : #d0d0d0
-*.color15 : #ffffff
-
+*.color15 : #BFBFBF
 !----------------------------------------
 !			Extended Colors
 !----------------------------------------
-*Rxvt.color61 : #6272a4
-*Rxvt.color215 : #ffb86c
+*.color61 : #6272a4
+*.color215 : #ffb86c
 
