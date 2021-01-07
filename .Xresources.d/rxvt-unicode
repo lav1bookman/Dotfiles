@@ -4,7 +4,7 @@
 *Rxvt.termName:					rxvt-256color
 *Rxvt*geometry:					180x49
 *Rxvt*mouseWheelScrollPage:		false	
-*Rxvt.saveline:					65535
+*Rxvt.saveline:					0
 *Rxvt.loginShell:				true
 *Rxvt*fading:					30
 *Rxvt*colorUL:					yellow
@@ -33,13 +33,13 @@ Xft.rgba: rgb
 !			Scroll
 !----------------------------------------
 *Rxvt.scrollStyle:				rxvt
-*Rxvt*scrollWithBuffer:			true
+*Rxvt*scrollWithBuffer:			false
 *Rxvt*scrollBar:				false
 *Rxvt*scrollColor:				#b9b9b9
 *Rxvt*skipScroll:				true
-URxvt*scrollTtyKeypress:		true
-URxvt*scrollTtyOutput:			false
-URxvt*secondaryScroll:			true
+*Rxvt*scrollTtyKeypress:		true
+*Rxvt*scrollTtyOutput:			false
+*Rxvt*secondaryScroll:			true
 !----------------------------------------
 !			Config font
 !----------------------------------------
